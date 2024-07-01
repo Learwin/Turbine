@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.learwin.turbine.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "turbine.mixins.refmap.json",
+  "mixins": [
+    "server.MixinSlot",
+    "client.MixinAbstractContainerScreen"
+  ],
+  "minVersion": "0.8"
+}

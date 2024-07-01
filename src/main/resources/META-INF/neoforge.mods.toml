@@ -25,3 +25,6 @@ license="ARR"
     ordering="NONE"
     side="BOTH"
 
+[[mixins]]
+   config="turbine.mixins.json"
+
