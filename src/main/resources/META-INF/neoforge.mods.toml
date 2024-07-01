@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[3,]"
+issueTrackerURL="https://github.com/Learwin/MultiprojectTemplateMod/issues"
+license="ARR"
+
+[[mods]]
+    modId="examplemod"
+    logoFile="examplemod.png"
+    version="1.0.0"
+    displayName="ExampleMod"
+    authors="Learwin"
+    description='''A description.'''
