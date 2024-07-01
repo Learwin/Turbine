@@ -1,11 +1,11 @@
-package io.github.learwin.examplemod;
+package io.github.learwin.turbine;
 
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 
-@Mod("examplemod")
-public class ExampleMod {
-    public ExampleMod(ModContainer container) {
+@Mod("turbine")
+public class Turbine {
+    public Turbine(ModContainer container) {
         System.out.println(container.getModId() + " initialised!");
     }
 }

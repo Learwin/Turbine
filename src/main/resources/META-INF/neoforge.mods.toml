@@ -1,12 +1,27 @@
 modLoader="javafml"
 loaderVersion="[3,]"
-issueTrackerURL="https://github.com/Learwin/MultiprojectTemplateMod/issues"
+issueTrackerURL="https://github.com/Learwin/Turbine/issues"
 license="ARR"
 
 [[mods]]
-    modId="examplemod"
-    logoFile="examplemod.png"
-    version="1.0.0"
-    displayName="ExampleMod"
+    modId="turbine"
+    logoFile="turbine.png"
+    version="0.0.1"
+    displayName="Turbine"
     authors="Learwin"
-    description='''A description.'''
+    description='''A multipurpose Library mod.'''
+
+[[dependencies.turbine]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.turbine]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
